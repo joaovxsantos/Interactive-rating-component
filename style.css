@@ -1,0 +1,50 @@
+body{
+    /* background-color:  hsl(216, 12%, 8%); */
+   
+}
+
+*{
+    color: white;
+}
+
+.container{
+
+    padding: 20px;
+    background-color: hsl(213, 19%, 18%);
+    max-width: 320px;
+    margin: auto;
+    margin-top: 8rem;
+    border-radius: 20px;
+}
+
+
+img{
+    background-color: hsl(216, 12%, 8%);
+    padding: 12px;
+    border-radius: 100px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    padding: 2px;
+    
+}
+
+li{
+    background-color: hsl(216, 12%, 8%);
+    padding: 25px;
+    border-radius: 20px;
+    margin-left: 3px;
+}
+
+
+button{
+   width: 100%;
+   background-color: hsl(25, 97%, 53%);
+   padding:10px ;
+   border-radius: 20px;
+  
+}
+
+
