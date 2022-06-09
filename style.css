@@ -25,12 +25,18 @@ h1{
 }
 
 
-img{
+#img{
     background-color: hsl(216, 12%, 8%);
     padding: 12px;
     border-radius: 100px;
     
 }
+
+#img2{
+    display: none;
+   text-align: center;
+}
+
 
 ul{
     list-style-type: none;

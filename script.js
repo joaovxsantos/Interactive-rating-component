@@ -9,59 +9,41 @@ function color(){
     })
 }
 
-function teste(){
-    
-    
-}
+
 
 
 function trade(){
     let li = document.getElementsByTagName("li")[0]
-    li.style = "background-color: hsl(25, 97%, 53%)"
-
-    addEventListener("mouseout", function(){
-        let li = document.getElementsByTagName("li")[0]
-        li.style = "background-color: hsl(216, 12%, 8%)"
-    })
     
+    li.style = "background-color: hsl(25, 97%, 53%)"
 }
 
 function trade1(){
     let li = document.getElementsByTagName("li")[1]
     li.style = "background-color: hsl(25, 97%, 53%)"
-
-    addEventListener("mouseout", function(){
-        let li = document.getElementsByTagName("li")[1]
-        li.style = "background-color: hsl(216, 12%, 8%)"
-    })
+    localStorage.getItem("teste", "b")
 }
 
 function trade2(){
     let li = document.getElementsByTagName("li")[2]
     li.style = "background-color: hsl(25, 97%, 53%)"
 
-    addEventListener("mouseout", function(){
-        let li = document.getElementsByTagName("li")[2]
-        li.style = "background-color: hsl(216, 12%, 8%)"
-    })
+    
 }
 
 function trade3(){
     let li = document.getElementsByTagName("li")[3]
     li.style = "background-color: hsl(25, 97%, 53%)"
 
-    addEventListener("mouseout", function(){
-        let li = document.getElementsByTagName("li")[3]
-        li.style = "background-color: hsl(216, 12%, 8%)"
-    })
 }
 
 function trade4(){
     let li = document.getElementsByTagName("li")[4]
     li.style = "background-color: hsl(25, 97%, 53%)"
 
-    addEventListener("mouseout", function(){
-        let li = document.getElementsByTagName("li")[4]
-        li.style = "background-color: hsl(216, 12%, 8%)"
-    })
+    
 }
+
+
+
+
