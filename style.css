@@ -1,77 +1,72 @@
-body{
-    background-color:  hsl(216, 12%, 8%);
-   
+body {
+  background-color: hsl(216, 12%, 8%);
 }
 
-*{
-    color: hsl(0, 0%, 100%);
-    font-family: 'Overpass', sans-serif;
+* {
+  color: hsl(0, 0%, 100%);
+  font-family: "Overpass", sans-serif;
 }
 
-h1{
-    font-weight: 700;
-    
+h1 {
+  font-weight: 700;
 }
 
+#pp {
+  margin: auto;
+  margin-top: 1rem;
+  padding: 5px;
+  text-align: center;
 
-.container{
-
-    padding: 20px;
-    background-color: hsl(213, 19%, 18%);
-    max-width: 320px;
-    margin: auto;
-    margin-top: 8rem;
-    border-radius: 20px;
+  border-radius: 10px;
+  color: hsl(25, 97%, 53%);
+  width: 150px;
+}
+.container {
+  padding: 20px;
+  background-color: hsl(213, 19%, 18%);
+  max-width: 320px;
+  margin: auto;
+  margin-top: 8rem;
+  border-radius: 20px;
 }
 
-
-#img{
-    background-color: hsl(216, 12%, 8%);
-    padding: 12px;
-    border-radius: 100px;
-    
+#img {
+  background-color: hsl(216, 12%, 8%);
+  padding: 12px;
+  border-radius: 100px;
 }
 
-#img2{
-    display: none;
-   text-align: center;
+#img2 {
+  display: none;
+  text-align: center;
 }
 
-
-ul{
-    list-style-type: none;
-    display: flex;
-    padding: 2px;
-    
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 2px;
 }
 
-li{
-    background-color: hsl(216, 12%, 8%);
-    padding: 25px;
-    border-radius: 50px ;
-    margin-left: 4px;
-    font-size: 15px;
-    cursor: pointer;
-    
+li {
+  background-color: hsl(216, 12%, 8%);
+  padding: 25px;
+  border-radius: 50px;
+  margin-left: 4px;
+  font-size: 15px;
+  cursor: pointer;
 }
 
-
-input{
-   width: 100%;
-   background-color: hsl(25, 97%, 53%);
-   padding:10px ;
-   border-radius: 20px;
-   border: 0px;
-   cursor: pointer;
-   font-weight: 700;
-   
-   
+input {
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  padding: 10px;
+  border-radius: 20px;
+  border: 0px;
+  cursor: pointer;
+  font-weight: 700;
 }
 
-p{
-    font-size: 15px;
-    font-weight: 400;
-    
+p {
+  font-size: 15px;
+  font-weight: 400;
 }
-
-
