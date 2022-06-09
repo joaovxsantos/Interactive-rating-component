@@ -1,11 +1,18 @@
 body{
-    /* background-color:  hsl(216, 12%, 8%); */
+    background-color:  hsl(216, 12%, 8%);
    
 }
 
 *{
-    color: white;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
 }
+
+h1{
+    font-weight: 700;
+    
+}
+
 
 .container{
 
@@ -22,6 +29,7 @@ img{
     background-color: hsl(216, 12%, 8%);
     padding: 12px;
     border-radius: 100px;
+    
 }
 
 ul{
@@ -34,17 +42,30 @@ ul{
 li{
     background-color: hsl(216, 12%, 8%);
     padding: 25px;
-    border-radius: 20px;
-    margin-left: 3px;
+    border-radius: 50px ;
+    margin-left: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    
 }
 
 
-button{
+input{
    width: 100%;
    background-color: hsl(25, 97%, 53%);
    padding:10px ;
    border-radius: 20px;
-  
+   border: 0px;
+   cursor: pointer;
+   font-weight: 700;
+   
+   
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+    
 }
 
 
