@@ -9,7 +9,10 @@ function color(){
     })
 }
 
-
+function teste(){
+    
+    
+}
 
 
 function trade(){
